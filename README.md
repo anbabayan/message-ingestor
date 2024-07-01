@@ -28,7 +28,7 @@ it will be saved to the messages table in the MongoDB database instance.
 ### Send Messages:
 
 
-Send a POST request to http://localhost:8080/api/v1/messages/ingest with a JSON payload:
+Send a POST request to http://localhost:8080/api/v1/messages/publish with a JSON payload:
 
 ```
 {
